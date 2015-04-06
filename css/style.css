@@ -737,3 +737,9 @@ position: relative;
   top: -391px;
   
 }
+@media screen and (min-width: 480px) {
+    
+          width: 30%;
+          float: right;
+     
+}
