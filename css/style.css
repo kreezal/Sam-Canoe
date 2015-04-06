@@ -47,13 +47,13 @@ position: relative;
 }
 #logo{
 	position: relative;
-	z-index: 100px;
+	z-index: 100;
 	left: 790px;
 	top: -285px;
 }
 #logo2{
 	position: relative;
-	z-index: 100px;
+	z-index: 100;
 	left: 640px;
 	top: -235px;
 }
@@ -65,7 +65,7 @@ position: relative;
 }
 #logo4{
 	position: relative;
-  z-index: 100px;
+  z-index: 100;
   left: -90px;
   top: -294px;
 }
@@ -77,27 +77,34 @@ position: relative;
 }
 #logo6{
   position: relative;
-  z-index: 100px;
+  z-index: 100;
   left: -394px;
   top: -202px;
+}
+#logo7{
+  position: relative;
+  z-index: 100;
+  left: 18px;
+  top: -391px;
+  
 }
 #name{
 	font-family: 'Rock Salt', cursive;
 	font-size: 32px;
 	color: rgb(202, 197, 197);
 	position: relative;
-	z-index: 100px;
-	left: 50px;
-	top: -130px;
+	z-index: 100;
+left: 529px;
+  top: -130px;
 }
 #job{
 	font-family: 'Rock Salt', cursive;
 	font-size: 20px;
 	color: rgb(202, 197, 197);
 	position: relative;
-	z-index: 100px;
-	  left: 28px;
-	top: -135px;
+	z-index: 100;
+  left: 529px;
+  top: -114px;
 }
 			/*TOP NAVIGATION*/
 .container {
@@ -107,7 +114,7 @@ margin : 20px 0 10px 5px;
 }
 #navCircle {
 position: relative;
-left: 75px;
+  left: 35px;
 float: left;
   top: -175px;
 margin : 0;
@@ -606,6 +613,11 @@ ul.rig li img {
 	height: auto;
 	margin: 0 0 10px;
 }
+ul.rig li iframe {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
 ul.rig li h3 {
 	margin: 0 0 5px;
 }
@@ -663,4 +675,65 @@ ul.rig.columns-4 li {
 #blog-img{
 	position: relative;
 left: 20px;
+}
+#blog-name{
+  font-family: 'Rock Salt', cursive;
+  font-size: 32px;
+  color: rgb(202, 197, 197);
+  position: relative;
+  z-index: 100;
+  left: 438px;
+  top: -118px;
+}
+#blog-job{
+	  font-family: 'Rock Salt', cursive;
+  font-size: 20px;
+  color: rgb(202, 197, 197);
+  position: relative;
+  z-index: 100;
+  left: 460px;
+  top: -114px;
+}
+#blog-logo{
+	position: relative;
+	z-index: 100;
+	left: 790px;
+	top: -285px;
+}
+#blog-logo2{
+	position: relative;
+	z-index: 100;
+	left: 640px;
+	top: -235px;
+}
+#blog-logo3{
+	position: relative;
+	z-index: 100px;
+	left: 485px;
+	top: -185px;
+}
+#blog-logo4{
+  position: relative;
+  z-index: 100;
+  left: -172px;
+  top: -294px;
+}
+#blog-logo5{
+position: relative;
+  z-index: 100px;
+  left: -477px;
+  top: -291px;
+}
+#blog-logo6{
+  position: relative;
+  z-index: 100;
+  left: -476px;
+  top: -202px;
+}
+#blog-logo7{
+  position: relative;
+  z-index: 100;
+  left: 18px;
+  top: -391px;
+  
 }
