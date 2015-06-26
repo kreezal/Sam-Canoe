@@ -5,7 +5,7 @@ text-align : left;
 font : 75% "Trebuchet MS", verdana, arial, sans-serif;
 line-height : 1.5em;
 
-background-color: #3A3A3A;
+background-color: #000000;
 }
 
 			/*CONTAINER*/
@@ -16,7 +16,7 @@ margin-right : auto;
 margin-left : auto;
 padding : 0;
 border : 0px solid green;
-background : #3A3A3A;
+background : #B6B6B6;
 }
 			/*TOP TITLE BAR*/
 #title {
@@ -24,8 +24,8 @@ max-width : 960px;
 margin-left : 5px;
 padding : 0;
 text-align : right;
-background : #3a3a3a;
-color : #3a3a3a;
+background : #B6B6B6;
+color : #B6B6B6;
 }
 #title h1 {
 margin : 0;
@@ -108,12 +108,9 @@ left: 529px;
 }
 			/*TOP NAVIGATION*/
 .container {
-  max-width: 950px;
-  height: 79px;
-  margin: -8px 0 10px 5px;
-  background-color: black;
-  -webkit-border-bottom-right-radius: 30px;
-  -webkit-border-bottom-left-radius: 30px;
+max-width : 950px;
+height : 35px;
+margin : 20px 0 10px 5px;
 }
 #navCircle {
 position: relative;
@@ -135,7 +132,7 @@ font-size : 1.3em;
 padding : 0 20px 15px 20px;
 text-decoration : none;
 background : inherit;
-color : rgb(178, 72, 41);
+color : #457C05;
 }
 #navCircle a:link.active, #navCircle a:visited.active, #navCircle a:hover {
 background-color : inherit;
@@ -162,7 +159,7 @@ position: relative;
   margin-top: 0;
   margin-left: 11px;
   padding: 5px;
-  border-right: 1px solid #8B8E88;
+  border-right: 1px solid #b2d094;
 }
 #content-blog{
 	
@@ -180,7 +177,7 @@ position: relative;
       left: 0px;
   top: -152px;
 font-size: 20px;
-color: rgb(184, 184, 184);
+color: #457C05;
 }
 h4{
 	position: relative;
@@ -192,32 +189,9 @@ h4{
   position: relative;
   left: 0px;
   display: inline-block;
-  color: rgb(184, 184, 184);
-}
-#tourn-p{
-  top: 2px;
-  position: relative;
-  left: 0px;
-  
-  color: rgb(184, 184, 184);
-}
-#media-p{
-  top: 2px;
-  position: relative;
-  left: 0px;
- 
-  color: rgb(184, 184, 184);
-}
-#promo-p{
-  top: 2px;
-  position: relative;
-  left: 0px;
-  
-  color: rgb(184, 184, 184);
 }
 #content p {
 padding : 0 20px;
-color: rgb(184, 184, 184);
 }
 			/*SIDEBAR*/
 #right-col {
@@ -233,50 +207,49 @@ color: rgb(184, 184, 184);
 #footer {
 position: relative;
 left: -672px;
-  width: 475px;
+  width: 950px;
 height: 12px;
 text-align: right;
 margin : 50px 0 0 0;
 padding : 5px;
 font : 90% "Trebuchet MS", verdana, arial, sans-serif;
-background : #3A3A3A;
+background : #4b692d;
 color : #fff;
 }
 #sponsor-footer{
 position: relative;
-left: -672px;
-top: 268px;
-  width: 475px;
-height: 12px;
-text-align: right;
-margin : 50px 0 0 0;
-padding : 5px;
-font : 90% "Trebuchet MS", verdana, arial, sans-serif;
-background : #3A3A3A;
-color : #fff;
+  left: 0px;
+  width: 950px;
+  height: 12px;
+  text-align: right;
+  margin: 50px 0 0 0;
+  padding: 5px;
+  font: 90% "Trebuchet MS", verdana, arial, sans-serif;
+  background: #4b692d;
+  color: #fff;
 }
 #sponsor-footer a:link, #sponsor-footer a:visited{
 	background: inherit;
-  color: #C0852B;
+  color: #b2d094;
 }
 #sponsor-footer a:hover{
 	background: inherit;
-	color: rgb(184, 184, 184);
+	color: #fff;
 	text-decoration: none;
 }
 #footer a:link, #footer a:visited {
 background : inherit;
-
+color : #b2d094;
 }
 #footer a:hover {
 background : inherit;
-color : #b2d094;
+color : #fff;
 text-decoration : none;
 }
 			/*SCROLLBAR*/
 div.scroll {
 position: relative;
-     left: -54px;
+  left: -45px;
   top: -141px;
   overflow: auto;
   height: 15em;
@@ -285,7 +258,7 @@ position: relative;
   padding: 1ex;
   margin: 0 0 30px 0px;
   border: 1px solid #345411;
-  background: #FDEBC2;
+  background: #BCE0A8;
   color: #000;
 }
 div.blog-scroll {
@@ -299,14 +272,14 @@ position: relative;
   padding: 1ex;
   margin: 0 0 30px 0px;
   border: 1px solid #345411;
-  background: #FDEBC2;
+  background: #BCE0A8;
   color: #000;
 }
 .CSSTableGenerator {
 	margin:0px;padding:0px;
 	max-width:100%;
 	box-shadow: 10px 10px 5px #888888;
-	border:1px solid #C0852B;
+	border:1px solid #3f7f00;
 	display: inline-block;
 	-moz-border-radius-bottomleft:0px;
 	-webkit-border-bottom-left-radius:0px;
@@ -355,7 +328,7 @@ position: relative;
 	vertical-align:middle;
 	
 	
-	border:1px solid rgb(178, 72, 41);
+	border:1px solid #3f7f00;
 	border-width:0px 1px 1px 0px;
 	text-align:left;
 	padding:7px;
@@ -371,12 +344,12 @@ position: relative;
 	border-width:0px 0px 0px 0px;
 }
 .CSSTableGenerator tr:first-child td{
-		background:-o-linear-gradient(bottom, #5fbf00 5%, #3f7f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #C0852B), color-stop(1, rgb(178, 72, 41)) );
+		background:-o-linear-gradient(bottom, #5fbf00 5%, #3f7f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5fbf00), color-stop(1, #3f7f00) );
 	background:-moz-linear-gradient( center top, #5fbf00 5%, #3f7f00 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#5fbf00", endColorstr="#3f7f00");	background: -o-linear-gradient(top,#5fbf00,3f7f00);
 
-	background-color:#C0852B;
-	border:0px solid rgb(178, 72, 41);
+	background-color:#5fbf00;
+	border:0px solid #3f7f00;
 	text-align:center;
 	border-width:0px 0px 1px 1px;
 	font-size:14px;
@@ -385,11 +358,11 @@ position: relative;
 	color:#ffffff;
 }
 .CSSTableGenerator tr:first-child:hover td{
-	background:-o-linear-gradient(bottom, #5fbf00 5%, #3f7f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #C0852B), color-stop(1, rgb(178, 72, 41)) );
+	background:-o-linear-gradient(bottom, #5fbf00 5%, #3f7f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5fbf00), color-stop(1, #3f7f00) );
 	background:-moz-linear-gradient( center top, #5fbf00 5%, #3f7f00 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#5fbf00", endColorstr="#3f7f00");	background: -o-linear-gradient(top,#5fbf00,3f7f00);
 
-	background-color:#C0852B;
+	background-color:#5fbf00;
 }
 .CSSTableGenerator tr:first-child td:first-child{
 	border-width:0px 0px 1px 0px;
@@ -404,7 +377,7 @@ font-size : 140%;
 text-transform : uppercase;
 letter-spacing : 5px;
 background : inherit;
-color : rgb(178, 72, 41);
+color : green;
 }
 #about{
 position: relative;
@@ -418,9 +391,9 @@ top: 261px;
 }
 #tourn-date-all{
  position: relative;
-  left: 0px;
+  left: 5px;
   text-align: center;
-  top: -30px;
+  top: -21px;
   display: inline-block;
 }
 #welcome{
@@ -429,7 +402,7 @@ font-size : 200%;
 text-transform : uppercase;
 letter-spacing : 5px;
 background : inherit;
-color : rgb(178, 72, 41);
+color : green;
 }
 #accomp{
 position: relative;
@@ -440,19 +413,17 @@ font-size : 140%;
 text-transform : uppercase;
 letter-spacing : 5px;
 background : inherit;
-color : rgb(178, 72, 41);
+color : green;
 }
 #accomp-list-head{
 	position: relative;
 	left: 60px;
-	top: -26px;
-	color: #C0852B;
+	top: 15px;
 }
 #accomp-list{
 	position: relative;
 	left: 60px;
-	top: -47px;
-	color: rgb(184, 184, 184);
+	top: 10px;
 }
 #link{
 position: relative;
@@ -466,10 +437,10 @@ color : green;
 }
 h3 {
 margin : 5px;
-font-size : 148%;
+font-size : 120%;
 letter-spacing : 5px;
 background : inherit;
-color : #895506;
+color : green;
 }
 
 .blog-heading-1{
@@ -510,7 +481,7 @@ position: relative;
 left: 30px;
 font-weight: bold;
 font-style: italic;
-color: rgb(178, 72, 41);
+color: green;
 }
  
 blockquote cite:before {
@@ -521,7 +492,7 @@ position: relative;
 left: 50px;
 font-weight: bold;
 font-style: italic;
-color: #C0852B;
+color: #457C05;
 }
 			/*LINKS*/
 a img {
@@ -530,7 +501,7 @@ border : none;
 a:link, a:visited {
 text-decoration : none;
 background : inherit;
-color : #C0852B;
+color : #457C05;
 }
 a:hover {
 text-decoration : underline;
@@ -627,7 +598,7 @@ ul.rig li {
 	display: inline-block;
 	padding: 10px;
 	margin: 0 0 2.5% 2.5%;
-	background: #3A3A3A;
+	background: #B6B6B6;
 	
 	font-size: 16px;
 	font-size: 1rem;
@@ -658,9 +629,6 @@ ul.rig li p {
 /* class for 2 columns */
 ul.rig.columns-2 li {
 	max-width: 47.5%; /* this value + 2.5 should = 50% */
-	  position: relative;
-  top: 30px;
-  left: -28px
 }
 /* class for 3 columns */
 ul.rig.columns-3 li {
@@ -703,7 +671,6 @@ ul.rig.columns-4 li {
   left: 31px;
   top: -152px;
   float: left;
-  color:	#C0852B;
 }
 #blog-img{
 	position: relative;
@@ -770,19 +737,9 @@ position: relative;
   top: -391px;
   
 }
-@media only screen and (max-device-width: 640px) {
-    body{
-    	margin-right:25%;
-    	margin-left: 25%;
-         
-          }
-     #header{
-     	max-width: 25%;
-     }
-     #welcome{
-
-     }
-     #wrapper{
-     	max-width: 100%;
-     }
+@media screen and (min-width: 480px) {
+    
+          width: 30%;
+          float: right;
+     
 }
